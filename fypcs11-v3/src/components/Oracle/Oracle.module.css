@@ -5,11 +5,13 @@
     font-family: sans-serif;
 }
 .main-container{
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 .sign-up-container{
     width: 450px;
